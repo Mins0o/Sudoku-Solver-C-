@@ -1,0 +1,1 @@
+csc /t:exe "D:\Dropbox\Programming\C#\Sudoku\Sudoku1.cs"
