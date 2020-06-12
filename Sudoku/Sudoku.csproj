@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0DD908F5-7FFC-4BFE-BED3-CD7F874BBCA2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sudoku2</RootNamespace>
-    <AssemblyName>Sudoku2</AssemblyName>
+    <RootNamespace>Sudoku</RootNamespace>
+    <AssemblyName>Sudoku</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,11 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sudoku2.cs" />
+    <Compile Include="Sudoku.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Sudoku2%28Compiler%29.bat" />
+    <None Include="Sudoku%28Compiler%29.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
